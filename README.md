@@ -1,4 +1,4 @@
-# blog
+# Blog
 MyBlog 📝💻
 
 Click [Here](https://github.com/iFun/Blog/issues) to view my blog
