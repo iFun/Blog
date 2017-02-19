@@ -11,3 +11,10 @@ Click [Here](https://github.com/iFun/Blog/issues) to view my blog
 ## Why use github issue to write blog?
 1. I am lazy
 2. It has all the feature I need (search, tag, markdown etc..)
+
+## TODO
+- [x] write phil145 study point 2 
+- [x] 大学3年总结
+- [x] first week  of coop summary
+- [x] use issue to write blog
+- [ ] first two month summary
