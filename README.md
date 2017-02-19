@@ -14,7 +14,7 @@ Click [Here](https://github.com/iFun/Blog/issues) to view my blog
 
 ## TODO
 - [x] write phil145 study point 2 
-- [x] 大学3年总结
+- [x] Summary of my 3 years University life
 - [x] first week  of coop summary
 - [x] use issue to write blog
 - [ ] first two month summary
