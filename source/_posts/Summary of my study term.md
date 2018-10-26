@@ -1,3 +1,12 @@
+---
+title: Summary of my study term
+date: 2016-4-24 21:07:41
+tags: 
+    - school
+---
+
+
+
 ### TL;DR
 #### I am going to change my life style 
 

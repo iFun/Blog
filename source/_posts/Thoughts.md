@@ -1,3 +1,12 @@
+---
+title: Thoughts
+date: 2018-4-24 21:07:41
+tags: 
+    - thoughts
+---
+
+
+
 ## Think and Reflect
 
 > It is very hard(expensive) to know the truth of a story or news. people don’t care about the truth. Media will purposely modified(extravagant) the story to get more views.

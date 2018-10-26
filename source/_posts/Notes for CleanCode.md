@@ -1,3 +1,11 @@
+---
+title: Notes for CleanCode
+date: 2018-10-24 21:07:41
+tags:
+	- notes
+	- code
+---
+
 # Notes for CleanCode
 
 

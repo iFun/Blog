@@ -1,3 +1,11 @@
+---
+title: 5th Coop
+date: 2017-2-24 22:07:41
+tags: 
+    - thoughts 
+    - school
+---
+
 > Shoot for the moon. Even if you miss, you'll land among the stars.
 
 I have been busy during the first two weeks of my co-op. I will break down into categories.

@@ -1,3 +1,11 @@
+---
+title: Phil 145 Notes
+date: 2016-10-24 21:07:41
+tags: 
+    - school
+---
+
+
 I always thought philosophy is not a subject I would be enjoying studying since I mainly focusing on subjection relates to computer. However, after learning PHIL145(_Critical thinking_) it really clears many of my question about human biases and created scientific controversy. 
 
 
