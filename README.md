@@ -11,5 +11,5 @@ MyBlog 📝💻
 - [x] ~~Summary of my 3 years University life~~
 - [x] ~~First week  of coop summary~~
 - [X] ~~Clean code study notes~~
-- [ ] My tools on Mac
+- [X] ~~My tools on Mac~~
 - [ ] Why review system is not working
