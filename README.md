@@ -12,4 +12,5 @@ MyBlog 📝💻
 - [x] ~~First week  of coop summary~~
 - [X] ~~Clean code study notes~~
 - [X] ~~My tools on Mac~~
+- [ ] My reading review on Homo Deus: A Brief History of Tomorrow
 - [ ] Why review system is not working
