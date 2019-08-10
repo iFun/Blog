@@ -1,9 +1,21 @@
 ---
-title: Notes for CleanCode
-date: 2018-10-24 21:07:41
+title: Reading Notes for CleanCode
+date: 2019-8-10 21:07:41
+
 ---
 
-## Meaningful name
+> Writing clean code is what you must do in order to call yourself a professional. There is no reasonable excuse for doing anything less that you best
+
+# Chapter 1 What is Clean Code?
+
+**Bjarne Stroustrup**: elegent, bug no where to hide, performance close to optimal
+
+**Grady Booch**: simple and direct
+
+**Dave Thomas**: can be read and enhanced by a developer other than its original author
+
+#Chapter 2 Meaningful name
+
 * Use Intention-revealing Names
 * Avoid Disinformation 
 	* do not call it a list unless it’s actually a list
@@ -15,15 +27,27 @@ date: 2018-10-24 21:07:41
 * Avoid Mental Mapping
 * No pun or cute word
 * Use solution/problem domain names
-* add meaningful context
+* Add meaningful context
 
-##   Functions
+# Chapter 3 Functions
+
 >  The first rule of functions is that they should be small. The second rule of functions is that they should be smaller than that.
 
 ### Function should do one thing, they should do it well. they should do it only.
-### One level of abstraction per function
 
-#  Comments
+> No side effects. Function must promises to do one thing,and it does not do any other hidden things
+
+### Command Query Separation
+
+	> Function should either do something or answer something, but now both
+	>
+	> Either function change the state of an object or return some info about that object
+	>
+	> Do BOTH can lead confusion
+
+### Use Expcetions to return error instead of error codes
+
+#  Chapter 4 Comments
 > Don’t comment bad code. re-write it
 
 1. Comments don’t make up for bad code
@@ -32,12 +56,49 @@ date: 2018-10-24 21:07:41
 4. TODO comments is good
 5. Amplification, A comment maybe used to amplify the importance of something that may otherwise seem inconsequential
 
+# Chapter 5 Formatting
+
+The purpose of formatting
+
+> Code formatting is about communication, and communication is the professional developer's first order of business 
+
+Number lines of code per file range from 0 to 200 (up to 500)
+
+Vertical Density
+
+- If openness separates concepts, then vertical density implies close association. So Lines of code that are tightly related should appear vertically dense
+- USELESS comment block can separate close associated code
+
+**Variable Declaration**: Should be declares as close to their usage as possible
+
+**Instance variable**: Should be declared at the top of the class
+
+**Depended Fucntions**: If one function calls another, they should be vertically close, and the caller should be above the callee
+
+```python
+def foo:
+  if bar():
+    return true
+  else:
+    return false
+  
+ def bar:
+   return true
+```
+
+### Horizontal Formatting
+
+How wide should a line be: 0 to120
+
+**Horizontal Alignment**: is not very useful
+
 # Object and Date Structures
+
 ## The Law of Demeter:
 > A module should not know about the innards of the objects it manipulates.
 > For example, A method f of a class C should only call the methods of these, C or An object created by f
 
- 
+
 # Boundaries
 before using 3rd party code. write test case for their code and test their functionality — Learning Test
 
@@ -67,7 +128,7 @@ Unit tests keep our code *flexible*, *maintainable* and *reusable*
 * how small the class should be? should be around 5 methods
 * how to name is the first rule of helping determine class size. 
 * class name should not have *Processor* or *Manager* or *Super* often hint at unfortunate aggression of responsibilities
- 
+
 ## The Single Responsibility Principle
 > class or module should have one and only one /reason to change
 > A class should only have one responsibility
