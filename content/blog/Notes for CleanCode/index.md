@@ -54,12 +54,12 @@ Unit tests keep our code *flexible*, *maintainable* and *reusable*
 
 #### What makes a clean test => Readability
 
-### Rules for a good tests
-#### Fast: Test should be fast. They should run quickly when test run slow, you won’t want to run them frequently 
-#### Independent: Tests should not depend on each other, One test should not set up the conditions for the next Test
-#### Repeatable: Tests should be repeatable in any environment. So that there is no excuse when test is failing
-#### Self-Validation: The tests should have a boolean output, either pass or fail
-#### Timely: The tests need to be written in timely fashion, Unit tests should be written just before the production code that makes them pass. If you write tests after the production code, them you may find the production code to be hard to test
+## Rules for a good tests
+- Fast: Test should be fast. They should run quickly when test run slow, you won’t want to run them frequently 
+-  Independent: Tests should not depend on each other, One test should not set up the conditions for the next Test
+-  Repeatable: Tests should be repeatable in any environment. So that there is no excuse when test is failing
+- Self-Validation: The tests should have a boolean output, either pass or fail
+-Timely: The tests need to be written in timely fashion, Unit tests should be written just before the production code that makes them pass. If you write tests after the production code, them you may find the production code to be hard to test
 
 
 # Classes
@@ -73,9 +73,10 @@ Unit tests keep our code *flexible*, *maintainable* and *reusable*
 > A class should only have one responsibility
 > 
 
-### ways to make class smaller => limit the number of in class variable 
-### each variables should be sued by most of the methods inside class
+- Ways to make class smaller => limit the number of in class variable 
 
-When a class contains more than 5 variables break it down
+- Each variables should be sued by most of the methods inside class
 
-Isolate class less dependents are good for changes in the future
+- When a class contains more than 5 variables break it down
+
+- Isolate class less dependents are good for changes in the future
