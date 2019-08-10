@@ -8,13 +8,13 @@ date: 2019-8-10 21:07:41
 
 # Chapter 1 What is Clean Code?
 
-**Bjarne Stroustrup**: elegent, bug no where to hide, performance close to optimal
+**Bjarne Stroustrup**: elegant, bug no where to hide, performance close to optimal
 
 **Grady Booch**: simple and direct
 
 **Dave Thomas**: can be read and enhanced by a developer other than its original author
 
-#Chapter 2 Meaningful name
+# Chapter 2 Meaningful name
 
 * Use Intention-revealing Names
 * Avoid Disinformation 
@@ -35,17 +35,15 @@ date: 2019-8-10 21:07:41
 
 ### Function should do one thing, they should do it well. they should do it only.
 
-> No side effects. Function must promises to do one thing,and it does not do any other hidden things
+> No side effects. Function must promises to do one thing, and it does not do any other hidden things
 
 ### Command Query Separation
 
-	> Function should either do something or answer something, but now both
-	>
-	> Either function change the state of an object or return some info about that object
-	>
-	> Do BOTH can lead confusion
+1. Function should either do something or answer something, but now both
+2. Either function change the state of an object or return some info about that object
+3. Do BOTH can lead confusion
 
-### Use Expcetions to return error instead of error codes
+### Use Expcetion to return error instead of error codes
 
 #  Chapter 4 Comments
 > Don’t comment bad code. re-write it
@@ -73,7 +71,7 @@ Vertical Density
 
 **Instance variable**: Should be declared at the top of the class
 
-**Depended Fucntions**: If one function calls another, they should be vertically close, and the caller should be above the callee
+**Depended Functions**: If one function calls another, they should be vertically close, and the caller should be above the callee
 
 ```python
 def foo:
@@ -100,7 +98,7 @@ How wide should a line be: 0 to120
 
 
 # Boundaries
-before using 3rd party code. write test case for their code and test their functionality — Learning Test
+Before using 3rd party code. write test case for their code and test their functionality — Learning Test
 
 # Unit Tests
 ## The Tree Laws of TDD
@@ -120,7 +118,7 @@ Unit tests keep our code *flexible*, *maintainable* and *reusable*
 -  Independent: Tests should not depend on each other, One test should not set up the conditions for the next Test
 -  Repeatable: Tests should be repeatable in any environment. So that there is no excuse when test is failing
 - Self-Validation: The tests should have a boolean output, either pass or fail
--Timely: The tests need to be written in timely fashion, Unit tests should be written just before the production code that makes them pass. If you write tests after the production code, them you may find the production code to be hard to test
+- Timely: The tests need to be written in timely fashion, Unit tests should be written just before the production code that makes them pass. If you write tests after the production code, them you may find the production code to be hard to test
 
 
 # Classes
@@ -132,7 +130,6 @@ Unit tests keep our code *flexible*, *maintainable* and *reusable*
 ## The Single Responsibility Principle
 > class or module should have one and only one /reason to change
 > A class should only have one responsibility
-> 
 
 - Ways to make class smaller => limit the number of in class variable 
 
