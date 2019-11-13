@@ -1,7 +1,7 @@
 ---
 title: Reading Notes for CleanCode
 category: Reading
-tags: book, code
+tags: book
 date: 2019-8-10 21:07:41
 
 ---
@@ -15,6 +15,8 @@ date: 2019-8-10 21:07:41
 **Grady Booch**: simple and direct
 
 **Dave Thomas**: can be read and enhanced by a developer other than its original author
+
+<!-- more -->
 
 # Chapter 2 Meaningful name
 

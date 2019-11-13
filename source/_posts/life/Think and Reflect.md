@@ -2,7 +2,7 @@
 layout: post
 title: Think and Reflect
 category: Life
-tags:  
+tags:  Life
 description:  
 ---
 
