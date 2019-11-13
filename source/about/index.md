@@ -1,3 +1,7 @@
 # Bill Guo
 
-# TODO
+Hi welcome to my blog
+
+This page is still under development
+
+Thank you

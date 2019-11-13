@@ -1,7 +1,7 @@
 ---
 title: Reading Notes for CleanCode
 category: Reading
-tags: book
+tags: [book, coding]
 date: 2019-8-10 21:07:41
 
 ---
