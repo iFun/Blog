@@ -4,12 +4,12 @@
 
 # Site
 title: Bill's Blog
-subtitle:
+subtitle: Life is good
 description:
-keywords:
+keywords: Blog
 author: Bill Guo
 language: en
-timezone:
+timezone: GMT-5
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -256,7 +256,7 @@ theme_config:
     # Sidebar Avatar
     avatar:
       # Replace the default image and set the url here.
-      url: #/images/avatar.gif
+      url: /images/avatar.jpg
       # If true, the avatar would be dispalyed in circle.
       rounded: false
       # If true, the avatar would be rotated with the cursor.
@@ -271,7 +271,7 @@ theme_config:
     # Value before `||` delimiter is the target permalink, value after `||` delimiter is the name of Font Awesome icon.
     social:
       GitHub: https://github.com/ifun || github
-      #E-Mail: mailto:yourname@gmail.com || envelope
+      E-Mail: mailto:guocheng19921028@gmail.com || envelope
       #Weibo: https://weibo.com/yourname || weibo
       #Google: https://plus.google.com/yourname || google
       #Twitter: https://twitter.com/yourname || twitter
@@ -279,7 +279,7 @@ theme_config:
       #VK Group: https://vk.com/yourname || vk
       #StackOverflow: https://stackoverflow.com/yourname || stack-overflow
       #YouTube: https://youtube.com/yourname || youtube
-      #Instagram: https://instagram.com/yourname || instagram
+      Instagram: https://instagram.com/ifun_bill || instagram
       #Skype: skype:yourname?call|chat || skype
 
     social_icons:
